@@ -1,0 +1,10 @@
+.header__logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.page__divider {
+  margin-top: 25px;
+}
