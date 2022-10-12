@@ -15,4 +15,7 @@ li {
   left: 50%;
   transform: translate(-50%, -50%);
   display: inline;
+  margin: -15em;
+  margin-left: 2em;
+  font-family: "Poppins";
 }
