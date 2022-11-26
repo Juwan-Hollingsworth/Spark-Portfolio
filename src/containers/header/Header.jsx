@@ -17,6 +17,10 @@ function Header() {
       </div>
       <div className="page__divider">
         <hr />
+        <h4 className="project__nav">
+          #️⃣ Web Development #️⃣ Copy Writing #️⃣ Graphic Design #️⃣ Paid Search #️⃣
+          Search Engine Optimization
+        </h4>
       </div>
     </div>
   );

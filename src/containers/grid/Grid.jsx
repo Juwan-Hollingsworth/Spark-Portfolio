@@ -39,6 +39,67 @@ function Grid() {
         <div className="text">Project description</div>
         <button className="view__btn">View Project</button>
       </div>
+
+      {/* fourth card */}
+      <div className="card">
+        <div className="title">Project 3</div>
+        <div className="image">
+          <img src={Image1} />
+        </div>
+        <div className="text">Project description</div>
+        <button className="view__btn">View Project</button>
+      </div>
+
+      {/* fourth card */}
+      <div className="card">
+        <div className="title">Project 3</div>
+        <div className="image">
+          <img src={Image2} />
+        </div>
+        <div className="text">Project description</div>
+        <button className="view__btn">View Project</button>
+      </div>
+
+      {/* fourth card */}
+      <div className="card">
+        <div className="title">Project 3</div>
+        <div className="image">
+          <img src={Image3} />
+        </div>
+        <div className="text">Project description</div>
+        <button className="view__btn">View Project</button>
+      </div>
+
+      {/* fourth card */}
+      <div className="card">
+        <div className="title">Project 3</div>
+        <div className="image">
+          <img src={Image1} />
+        </div>
+        <div className="text">Project description</div>
+        <button className="view__btn">View Project</button>
+      </div>
+
+      {/* fourth card */}
+      <div className="card">
+        <div className="title">Project 3</div>
+        <div className="image">
+          <img src={Image2} />
+        </div>
+        <div className="text">Project description</div>
+        <button className="view__btn">View Project</button>
+      </div>
+
+      {/* fourth card */}
+      <div className="card">
+        <div className="title">Project 3</div>
+        <div className="image">
+          <img src={Image3} />
+        </div>
+        <div className="text">Project description</div>
+        <button className="view__btn">View Project</button>
+      </div>
+      {/* end div */}
     </div>
   );
 }
