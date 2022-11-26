@@ -1,6 +1,6 @@
 .column {
   float: left;
-  width: 50%;
+  width: 33.33%;
 }
 
 /* Clear floats after the columns */
@@ -8,4 +8,7 @@
   content: "";
   display: table;
   clear: both;
+}
+.footer__background {
+  /* background-color: #9c9d9d; */
 }
