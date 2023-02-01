@@ -5,11 +5,28 @@
   width: 50%;
 }
 
-.page__divider {
-  margin-top: 25px;
+.header__banner {
+  height: 25px;
+  background-color: aqua;
+  padding: 3px;
+  /* padding-left: px; */
+  display: flex;
+  justify-content: space-between;
 }
 
-.project__nav {
-  color: rgb(46, 46, 46);
-  text-align: center;
+.header__banner p {
+  margin: 0px;
+}
+
+.phone_img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.phone_section {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  padding: 3px;
 }

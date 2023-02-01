@@ -1,11 +1,18 @@
 import React from "react";
 import logo from "../../assets/spark_logo3.svg";
-import { Navbar } from "../../components";
+import { Divider, Navbar } from "../../components";
 import "./header.css";
+import phone from "../../assets/phone_banner.png";
 
 function Header() {
   return (
     <div>
+      {/* <div className="header__banner">
+        <div className="phone_section">
+          <img src={phone} className="phone_img" />
+          <p>(999) 999-9999</p>
+        </div>
+      </div> */}
       <img
         className="header__logo"
         src={logo}
@@ -15,13 +22,7 @@ function Header() {
       <div>
         <Navbar />
       </div>
-      <div className="page__divider">
-        <hr />
-        <h4 className="project__nav">
-          #️⃣ Web Development #️⃣ Copy Writing #️⃣ Graphic Design #️⃣ Paid Search #️⃣
-          Search Engine Optimization
-        </h4>
-      </div>
+      <Divider />
     </div>
   );
 }

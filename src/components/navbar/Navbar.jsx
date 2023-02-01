@@ -6,10 +6,10 @@ function Navbar() {
     <div className="nav__menu">
       <ul>
         <li>
-          <a href="default.asp">Portfolio</a>
+          <a href="news.asp">Home</a>
         </li>
         <li>
-          <a href="news.asp">Website</a>
+          <a href="default.asp">Portfolio</a>
         </li>
         <li>
           <a href="contact.asp">Contact</a>
