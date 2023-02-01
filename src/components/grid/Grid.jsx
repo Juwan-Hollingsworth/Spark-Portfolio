@@ -12,7 +12,7 @@ function Grid() {
   return (
     <div className="grid__container">
       <div className="card">
-        <div className="title">Project 1</div>
+        <div className="title">Amazing Ski</div>
         <div className="image">
           <img src={Image1} />
         </div>

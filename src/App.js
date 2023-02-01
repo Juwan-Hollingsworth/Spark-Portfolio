@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import { Grid, Header, Footer } from "./containers";
+import { Header, Footer, Body } from "./containers";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Grid />
+      <Body />
       <Footer />
     </div>
   );
